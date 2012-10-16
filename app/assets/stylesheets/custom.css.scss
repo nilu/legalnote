@@ -8,6 +8,7 @@ $grayMediumLight: #eaeaea;
 
 html {
   overflow-y: scroll;
+	background-color:white;
 }
 
 body {
@@ -49,6 +50,24 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $grayLight;
+}
+
+h3 {
+  font-size: 1.7em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  # font-weight: normal;
+	font-family: Helvetica Neue, Helvetica;
+}
+
+h4 {
+  font-size: 1.9em;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  # font-weight: normal;
+	font-family: Helvetica Neue, Helvetica;
 }
 
 p {
@@ -99,4 +118,23 @@ footer {
       margin-left: 10px;
     }
   }
+}
+
+
+/* Body */
+#no {
+	margin-left:90px;
+	width: 230px;
+	h4 {
+		text-align:left;
+	}
+}
+
+#cloud {
+	margin-left:38px;
+	width:265px;
+}
+#man {
+	width:235px;
+	margin-left:80px;
 }
