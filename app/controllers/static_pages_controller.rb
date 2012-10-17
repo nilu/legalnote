@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
   
   def demo
   end
+  
+  def clientintake
+  end
 end

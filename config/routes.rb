@@ -9,6 +9,7 @@ Legalnote::Application.routes.draw do
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
   match '/demo',    to: 'static_pages#demo'
+  match '/clientintake',    to: 'static_pages#clientintake'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
